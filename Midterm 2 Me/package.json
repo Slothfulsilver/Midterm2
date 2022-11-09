@@ -1,0 +1,25 @@
+{
+  "name": "midterm2",
+  "version": "1.0.0",
+  "description": "Pokedex by Arturo",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "Pokedex"
+  ],
+  "author": "Arturo Garcia <0226399@up.edu.mx>",
+  "license": "ISC",
+  "dependencies": {
+    "document-ready": "^2.0.2",
+    "ejs": "^3.1.8",
+    "express": "^4.18.2",
+    "jquery": "^3.6.1",
+    "jsdom": "^20.0.1",
+    "pokeapi-js-wrapper": "^1.2.2",
+    "pokedex-promise-v2": "^4.0.0",
+    "puppeteer": "^19.1.0"
+  }
+}
